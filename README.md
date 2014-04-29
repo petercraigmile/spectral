@@ -6,7 +6,10 @@ A R package for carrying out the spectral analysis of univariate time series.
 
 Supported by the National Science Foundation under award number DMS-0604963.
 
-
+To install the R package make sure that you have the `devtools` R package installed first and then type
+```
+devtools::install_github("spectral", user="petercraigmile", subdir="spectral") 
+```
 
 
 ### References:
