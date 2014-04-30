@@ -3,8 +3,11 @@
 Email questions about the code to pfc &lt;AT&gt; stat.osu.edu
 
 A R package for carrying out the spectral analysis of univariate time
-series.  Now includes R functions for carrying out spectral-based
-tests of periodicity.  Extra code used in Wei and Craigmile (2010) are
+series.  The package is contained in the `spectral` folder.  Previous
+versions are in the `releases` folder.
+
+Now includes R functions for carrying out spectral-based tests of
+periodicity.  Extra code used in Wei and Craigmile (2010) are
 contained in the folder `spectral_tests_of_periodicity`.  Code testing
 some of the function in the R package are in `tests`.
 
