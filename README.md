@@ -22,10 +22,6 @@ installed.  After installing the `devtools` R package type
 devtools::install_github("spectral", user="petercraigmile", subdir="spectral") 
 ```
 
-For Windows type
-
-```
-```
 
 
 ### Issues:
