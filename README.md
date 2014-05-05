@@ -13,9 +13,18 @@ some of the function in the R package are in `tests`.
 
 Supported by the National Science Foundation under award number DMS-0604963 and DMS-0906864.
 
-To install the R package make sure that you have the `devtools` R package installed first and then type
+### Installation
+
+For Mac OS and Linux, make sure you have the C and fortran compilers
+installed.  After installing the `devtools` R package type
+
 ```
 devtools::install_github("spectral", user="petercraigmile", subdir="spectral") 
+```
+
+For Windows type
+
+```
 ```
 
 
