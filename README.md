@@ -31,6 +31,8 @@ For windows, download the file <a href="https://github.com/petercraigmile/spectr
 3. Your R package will be installed.
 
 
+After installation, type `library(spectral)` to use the R library.
+
 
 ### Issues:
 
