@@ -3,8 +3,8 @@
 Email questions about the code to pfc &lt;AT&gt; stat.osu.edu
 
 A R package for carrying out the spectral analysis of univariate time
-series.  The package is contained in the `spectral` folder.  Previous
-versions are in the `releases` folder.
+series.  The package is contained in the `spectral` folder.  Different
+versions of the R package are in the `releases` folder.
 
 Now includes R functions for carrying out spectral-based tests of
 periodicity.  Extra code used in Wei and Craigmile (2010) are
