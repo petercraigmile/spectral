@@ -22,6 +22,14 @@ installed.  After installing the `devtools` R package type
 devtools::install_github("spectral", user="petercraigmile", subdir="spectral") 
 ```
 
+For windows, download the file <a href="https://github.com/petercraigmile/spectral/raw/master/releases/current/spectral.zip">spectral.zip</a> from the `releases` folder.    Then:
+
+1. Open the R gui, by doubling clicking on the R icon.
+
+2. Click on the `Packages` menu and select `Install package(s) from local zip files...`.  Find the zip file and press `Open`.
+
+3. Your R package will be installed.
+
 
 
 ### Issues:
