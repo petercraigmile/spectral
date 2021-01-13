@@ -41,9 +41,6 @@ mean.spect <- function (x, ...)
   x  
 }
 
-
-
-
 plot.spect <- function (x, taper.num, xlab="Frequency", ylab="Spectrum",
                         log.freq=FALSE, add=FALSE,
                         type="l", ...)
@@ -53,19 +50,17 @@ plot.spect <- function (x, taper.num, xlab="Frequency", ylab="Spectrum",
   ## ======================================================================
   
 {
-  if (missing(taper.num))
-    spec <- x$spec
-  else
-    spec <- x$spec[,taper.num]
+    if (missing(taper.num))
+        spec <- x$spec
+    else
+        spec <- x$spec[,taper.num]
 
-  if (log.freq) freqs <- log(x$freq)/log(2)
-  else freqs <- x$freq
-
-  if (add) lines(freqs, dB(spec), ...)
-  else plot(freqs, dB(spec), type=type, xlab=xlab, ylab=ylab, ...)
+    if (log.freq) freqs <- log(x$freq)/log(2)
+    else freqs <- x$freq
+    
+    if (add) lines(freqs, dB(spec), ...)
+    else plot(freqs, dB(spec), type=type, xlab=xlab, ylab=ylab, ...)
 }
-
-
 
 
 spect.max <- function (sp, f1, f2)

@@ -6,4 +6,8 @@ import(
   statmod
 )
 
+
+S3method("plot", "spect")
+export(plot.spect)
+
 useDynLib(spectral)
