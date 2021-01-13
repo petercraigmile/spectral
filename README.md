@@ -19,7 +19,8 @@ For Mac OS and Linux, make sure you have the C and fortran compilers
 installed.  After installing the `devtools` R package type
 
 ```
-devtools::install_github("https://github.com/petercraigmile/spectral", subdir="spectral") ```
+devtools::install_github("https://github.com/petercraigmile/spectral", subdir="spectral")
+```
 
 For windows, download the file <a href="https://github.com/petercraigmile/spectral/raw/master/releases/current/spectral.zip">spectral.zip</a> from the `releases` folder.    Then:
 
