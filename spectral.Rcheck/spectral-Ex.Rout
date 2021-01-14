@@ -1,0 +1,84 @@
+
+R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"
+Copyright (C) 2020 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin17.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> pkgname <- "spectral"
+> source(file.path(R.home("share"), "R", "examples-header.R"))
+> options(warn = 1)
+> library('spectral')
+Loading required package: statmod
+> 
+> base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
+> base::assign(".old_wd", base::getwd(), pos = 'CheckExEnv')
+> cleanEx()
+> nameEx("decibels")
+> ### * decibels
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: decibels
+> ### Title: Convert to decibels
+> ### Aliases: decibels dB
+> 
+> ### ** Examples
+> 
+> decibels(1)  # return 0
+[1] 0
+> decibels(10) # returns 10
+[1] 10
+> decibels(0)  # return -Inf
+[1] -Inf
+> 
+> 
+> 
+> cleanEx()
+> nameEx("idecibels")
+> ### * idecibels
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: idecibels
+> ### Title: Convert from decibels
+> ### Aliases: idecibels idB
+> 
+> ### ** Examples
+> 
+> idecibels(0)  # return 1
+[1] 1
+> idecibels(10) # returns 10
+[1] 10
+> idecibels(-Inf)  # return 0
+[1] 0
+> 
+> 
+> 
+> ### * <FOOTER>
+> ###
+> cleanEx()
+> options(digits = 7L)
+> base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
+Time elapsed:  0.108 0.01 0.136 0 0 
+> grDevices::dev.off()
+null device 
+          1 
+> ###
+> ### Local variables: ***
+> ### mode: outline-minor ***
+> ### outline-regexp: "\\(> \\)?### [*]+" ***
+> ### End: ***
+> quit('no')

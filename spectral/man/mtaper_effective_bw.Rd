@@ -6,6 +6,7 @@
 \usage{ multitaper.effective.bw(tapers) }
 \arguments{
 \item{tapers}{ a matrix of multitapers }
+}
 \value{}
 \details{}
 \author{Peter F. Craigmile}

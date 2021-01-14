@@ -1,0 +1,293 @@
+* using log directory ‘/Users/pfc/Dropbox/work/computing/github_projects/spectral/spectral.Rcheck’
+* using R version 4.0.3 (2020-10-10)
+* using platform: x86_64-apple-darwin17.0 (64-bit)
+* using session charset: UTF-8
+* checking for file ‘spectral/DESCRIPTION’ ... OK
+* this is package ‘spectral’ version ‘0.8.1’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘spectral’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Malformed Description field: should contain one or more complete sentences.
+Checking should be performed on sources prepared by ‘R CMD build’.
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... WARNING
+'library' or 'require' call not declared from: ‘gam’
+'library' or 'require' call to ‘gam’ in package code.
+  Please use :: or requireNamespace() instead.
+  See section 'Suggested packages' in the 'Writing R Extensions' manual.
+* checking S3 generic/method consistency ... NOTE
+Found the following apparent S3 methods exported but not registered:
+  mean.spect
+See section ‘Registering S3 methods’ in the ‘Writing R Extensions’
+manual.
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+acvs.from.sdf : <anonymous>: no visible global function definition for
+  ‘integrate’
+arma.var.from.sdf: no visible global function definition for
+  ‘integrate’
+Deni.Wald.crit: no visible global function definition for ‘qf’
+Deni.Wald.stat: no visible global function definition for ‘deltat’
+direct.spectral: no visible global function definition for ‘deltat’
+direct.spectral : <anonymous>: no visible global function definition
+  for ‘fft’
+fft1: no visible global function definition for ‘fft’
+global.Ftest: no visible global function definition for ‘gam’
+global.Ftest: no visible global function definition for
+  ‘Ftest.Satterthwaite’
+global.Ftest: no visible global function definition for ‘qf’
+global.Ftest: no visible global function definition for ‘pf’
+hearing.stat.crit: no visible global function definition for ‘uniroot’
+local.Ftest: no visible global function definition for ‘lm’
+local.Ftest: no visible global function definition for ‘qf’
+local.Ftest: no visible global function definition for ‘pf’
+local.Ftest.Satterthwaite: no visible global function definition for
+  ‘fitted’
+local.Ftest.Satterthwaite: no visible global function definition for
+  ‘predict’
+multitaper.effective.bw : <anonymous>: no visible global function
+  definition for ‘acf’
+periodicity: no visible global function definition for ‘runif’
+periodogram: no visible global function definition for ‘deltat’
+periodogram: no visible global function definition for ‘fft’
+pgram: no visible global function definition for ‘deltat’
+pgram: no visible global function definition for ‘fft’
+plot.spect: no visible global function definition for ‘lines’
+Thomson.crit: no visible global function definition for ‘qf’
+Thomson.stat: no visible global function definition for ‘deltat’
+Thomson.test: no visible global function definition for ‘deltat’
+Thomson.test: no visible global function definition for ‘qf’
+Thomson.test: no visible global function definition for ‘pf’
+Undefined global functions or variables:
+  acf deltat fft fitted Ftest.Satterthwaite gam integrate lines lm pf
+  predict qf runif uniroot
+Consider adding
+  importFrom("graphics", "lines")
+  importFrom("stats", "acf", "deltat", "fft", "fitted", "integrate",
+             "lm", "pf", "predict", "qf", "runif", "uniroot")
+to your NAMESPACE file.
+* checking Rd files ... WARNING
+prepare_Rd: acvs.from.sdf.Rd:32-33: Dropping empty section \details
+prepare_Rd: acvs.from.sdf.Rd:40: Dropping empty section \note
+prepare_Rd: acvs.from.sdf.Rd:37-38: Dropping empty section \references
+prepare_Rd: acvs.from.sdf.Rd:41: Dropping empty section \seealso
+prepare_Rd: acvs.from.sdf.Rd:42: Dropping empty section \examples
+prepare_Rd: ar.sdf.Rd:16: Dropping empty section \keyword
+prepare_Rd: ar.sdf.Rd:5: Dropping empty section \description
+prepare_Rd: ar.sdf.Rd:14: Dropping empty section \details
+checkRd: (5) ar.sdf.Rd:0-18: Must have a \description
+prepare_Rd: ar2.example.Rd:6: Dropping empty section \description
+checkRd: (5) ar2.example.Rd:0-12: Must have a \description
+prepare_Rd: ar4.example.Rd:6: Dropping empty section \description
+checkRd: (5) ar4.example.Rd:0-12: Must have a \description
+prepare_Rd: arma.sdf.Rd:17: Dropping empty section \keyword
+prepare_Rd: arma.sdf.Rd:5: Dropping empty section \description
+prepare_Rd: arma.sdf.Rd:15: Dropping empty section \details
+checkRd: (5) arma.sdf.Rd:0-18: Must have a \description
+prepare_Rd: arma.var.from.sdf.Rd:16: Dropping empty section \keyword
+prepare_Rd: arma.var.from.sdf.Rd:5: Dropping empty section \description
+prepare_Rd: arma.var.from.sdf.Rd:14: Dropping empty section \details
+checkRd: (5) arma.var.from.sdf.Rd:0-17: Must have a \description
+prepare_Rd: closest.Fourier.frequency.Rd:17: Dropping empty section \keyword
+prepare_Rd: closest.Fourier.frequency.Rd:5: Dropping empty section \description
+prepare_Rd: closest.Fourier.frequency.Rd:12: Dropping empty section \value
+checkRd: (5) closest.Fourier.frequency.Rd:0-19: Must have a \description
+prepare_Rd: closest.Fourier.index.Rd:17: Dropping empty section \keyword
+prepare_Rd: closest.Fourier.index.Rd:5: Dropping empty section \description
+prepare_Rd: closest.Fourier.index.Rd:12: Dropping empty section \value
+checkRd: (5) closest.Fourier.index.Rd:0-19: Must have a \description
+prepare_Rd: complex.chol.Rd:19: Dropping empty section \keyword
+prepare_Rd: complex.chol.Rd:5: Dropping empty section \description
+prepare_Rd: complex.chol.Rd:14: Dropping empty section \details
+prepare_Rd: complex.chol.Rd:15: Dropping empty section \references
+prepare_Rd: complex.chol.Rd:16: Dropping empty section \seealso
+prepare_Rd: complex.chol.Rd:17: Dropping empty section \examples
+checkRd: (5) complex.chol.Rd:0-20: Must have a \description
+prepare_Rd: cosine.taper.Rd:15: Dropping empty section \keyword
+prepare_Rd: cosine.taper.Rd:5: Dropping empty section \description
+prepare_Rd: cosine.taper.Rd:13: Dropping empty section \details
+checkRd: (5) cosine.taper.Rd:0-16: Must have a \description
+prepare_Rd: create.taper.Rd:15: Dropping empty section \keyword
+prepare_Rd: create.taper.Rd:5: Dropping empty section \description
+prepare_Rd: create.taper.Rd:13: Dropping empty section \details
+checkRd: (5) create.taper.Rd:0-16: Must have a \description
+prepare_Rd: decibels.Rd:18: Dropping empty section \keyword
+prepare_Rd: direct.spectral.Rd:21: Dropping empty section \keyword
+prepare_Rd: direct.spectral.Rd:17: Dropping empty section \references
+prepare_Rd: direct.spectral.Rd:18: Dropping empty section \seealso
+prepare_Rd: direct.spectral.Rd:19: Dropping empty section \examples
+prepare_Rd: Dirichlet.kernel.Rd:15: Dropping empty section \keyword
+prepare_Rd: Dirichlet.kernel.Rd:5: Dropping empty section \description
+prepare_Rd: Dirichlet.kernel.Rd:12: Dropping empty section \details
+checkRd: (5) Dirichlet.kernel.Rd:0-17: Must have a \description
+prepare_Rd: dpss.taper.Rd:22: Dropping empty section \keyword
+prepare_Rd: dpss.taper.Rd:5: Dropping empty section \description
+prepare_Rd: dpss.taper.Rd:20: Dropping empty section \details
+checkRd: (5) dpss.taper.Rd:0-25: Must have a \description
+prepare_Rd: Fejer.kernel.Rd:16: Dropping empty section \keyword
+prepare_Rd: Fejer.kernel.Rd:5: Dropping empty section \description
+prepare_Rd: Fejer.kernel.Rd:13: Dropping empty section \details
+checkRd: (5) Fejer.kernel.Rd:0-18: Must have a \description
+prepare_Rd: fft1.Rd:15: Dropping empty section \keyword
+prepare_Rd: fft1.Rd:5: Dropping empty section \description
+prepare_Rd: fft1.Rd:13: Dropping empty section \examples
+checkRd: (5) fft1.Rd:0-16: Must have a \description
+prepare_Rd: Fisher.test.Rd:16: Dropping empty section \keyword
+prepare_Rd: Fisher.test.Rd:5: Dropping empty section \description
+prepare_Rd: Fisher.test.Rd:12: Dropping empty section \details
+prepare_Rd: Fisher.test.Rd:14: Dropping empty section \examples
+checkRd: (5) Fisher.test.Rd:0-17: Must have a \description
+prepare_Rd: Fourier.frequencies.Rd:16: Dropping empty section \keyword
+prepare_Rd: Fourier.frequencies.Rd:5: Dropping empty section \description
+prepare_Rd: Fourier.frequencies.Rd:11: Dropping empty section \value
+checkRd: (5) Fourier.frequencies.Rd:0-18: Must have a \description
+prepare_Rd: h.Rd:16: Dropping empty section \keyword
+prepare_Rd: h.Rd:5: Dropping empty section \description
+prepare_Rd: h.Rd:11: Dropping empty section \details
+prepare_Rd: h.Rd:12: Dropping empty section \references
+prepare_Rd: h.Rd:13: Dropping empty section \seealso
+prepare_Rd: h.Rd:14: Dropping empty section \examples
+checkRd: (5) h.Rd:0-17: Must have a \description
+prepare_Rd: Hanning.taper.Rd:17: Dropping empty section \keyword
+prepare_Rd: Hanning.taper.Rd:4: Dropping empty section \description
+checkRd: (5) Hanning.taper.Rd:0-18: Must have a \description
+prepare_Rd: idecibels.Rd:18: Dropping empty section \keyword
+prepare_Rd: ma.sdf.Rd:16: Dropping empty section \keyword
+prepare_Rd: ma.sdf.Rd:5: Dropping empty section \description
+prepare_Rd: ma.sdf.Rd:14: Dropping empty section \details
+checkRd: (5) ma.sdf.Rd:0-18: Must have a \description
+prepare_Rd: mean.spect.Rd:19: Dropping empty section \keyword
+prepare_Rd: mean.spect.Rd:15: Dropping empty section \references
+prepare_Rd: mean.spect.Rd:16: Dropping empty section \seealso
+prepare_Rd: mean.spect.Rd:17: Dropping empty section \examples
+prepare_Rd: mtaper_effective_bw.Rd:13: Dropping empty section \keyword
+prepare_Rd: mtaper_effective_bw.Rd:5: Dropping empty section \description
+prepare_Rd: mtaper_effective_bw.Rd:11: Dropping empty section \details
+prepare_Rd: mtaper_effective_bw.Rd:10: Dropping empty section \value
+checkRd: (5) mtaper_effective_bw.Rd:0-14: Must have a \description
+prepare_Rd: periodicity.Rd:19: Dropping empty section \keyword
+prepare_Rd: periodicity.Rd:5: Dropping empty section \description
+prepare_Rd: periodicity.Rd:15: Dropping empty section \details
+prepare_Rd: periodicity.Rd:16: Dropping empty section \references
+prepare_Rd: periodicity.Rd:17: Dropping empty section \examples
+checkRd: (5) periodicity.Rd:0-20: Must have a \description
+prepare_Rd: periodogram.Rd:18: Dropping empty section \keyword
+prepare_Rd: periodogram.Rd:14: Dropping empty section \references
+prepare_Rd: periodogram.Rd:15: Dropping empty section \seealso
+prepare_Rd: periodogram.Rd:16: Dropping empty section \examples
+prepare_Rd: plot.spect.Rd:26: Dropping empty section \keyword
+prepare_Rd: plot.spect.Rd:4: Dropping empty section \description
+prepare_Rd: plot.spect.Rd:22: Dropping empty section \references
+prepare_Rd: plot.spect.Rd:23: Dropping empty section \seealso
+prepare_Rd: plot.spect.Rd:24: Dropping empty section \examples
+checkRd: (5) plot.spect.Rd:0-27: Must have a \description
+prepare_Rd: rectangular.taper.Rd:18: Dropping empty section \keyword
+prepare_Rd: rectangular.taper.Rd:5: Dropping empty section \description
+checkRd: (5) rectangular.taper.Rd:0-20: Must have a \description
+prepare_Rd: renormalize.taper.Rd:13: Dropping empty section \keyword
+prepare_Rd: renormalize.taper.Rd:5: Dropping empty section \description
+prepare_Rd: renormalize.taper.Rd:11: Dropping empty section \details
+checkRd: (5) renormalize.taper.Rd:0-14: Must have a \description
+prepare_Rd: sine.taper.Rd:20: Dropping empty section \keyword
+prepare_Rd: sine.taper.Rd:5: Dropping empty section \description
+prepare_Rd: sine.taper.Rd:18: Dropping empty section \details
+checkRd: (5) sine.taper.Rd:0-21: Must have a \description
+prepare_Rd: spect.max.Rd:19: Dropping empty section \keyword
+prepare_Rd: spect.max.Rd:5: Dropping empty section \description
+prepare_Rd: spect.max.Rd:14: Dropping empty section \details
+prepare_Rd: spect.max.Rd:15: Dropping empty section \references
+prepare_Rd: spect.max.Rd:16: Dropping empty section \seealso
+prepare_Rd: spect.max.Rd:17: Dropping empty section \examples
+checkRd: (5) spect.max.Rd:0-20: Must have a \description
+prepare_Rd: spect.Rd:20: Dropping empty section \keyword
+prepare_Rd: spect.Rd:5: Dropping empty section \description
+prepare_Rd: spect.Rd:17: Dropping empty section \references
+prepare_Rd: spect.Rd:18: Dropping empty section \examples
+checkRd: (5) spect.Rd:0-22: Must have a \description
+prepare_Rd: squared.gain.Rd:18: Dropping empty section \keyword
+prepare_Rd: squared.gain.Rd:5: Dropping empty section \description
+prepare_Rd: squared.gain.Rd:15: Dropping empty section \references
+prepare_Rd: squared.gain.Rd:16: Dropping empty section \examples
+checkRd: (5) squared.gain.Rd:0-20: Must have a \description
+prepare_Rd: Thomson.crit.Rd:16: Dropping empty section \keyword
+prepare_Rd: Thomson.crit.Rd:5: Dropping empty section \description
+prepare_Rd: Thomson.crit.Rd:12: Dropping empty section \details
+prepare_Rd: Thomson.crit.Rd:14: Dropping empty section \examples
+checkRd: (5) Thomson.crit.Rd:0-17: Must have a \description
+prepare_Rd: Thomson.stat.Rd:20: Dropping empty section \keyword
+prepare_Rd: Thomson.stat.Rd:5: Dropping empty section \description
+prepare_Rd: Thomson.stat.Rd:18: Dropping empty section \examples
+checkRd: (5) Thomson.stat.Rd:0-21: Must have a \description
+prepare_Rd: transfer.Rd:16: Dropping empty section \keyword
+prepare_Rd: transfer.Rd:5: Dropping empty section \description
+prepare_Rd: transfer.Rd:13: Dropping empty section \references
+prepare_Rd: transfer.Rd:14: Dropping empty section \examples
+checkRd: (5) transfer.Rd:0-18: Must have a \description
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  ‘Deni.Wald.crit’ ‘Deni.Wald.setup’ ‘Deni.Wald.stat’ ‘global.Ftest’
+  ‘hcrits’ ‘hearing.stat’ ‘hearing.stat.crit’ ‘hearing.stat.pvalue’
+  ‘local.Ftest’ ‘local.Ftest.Satterthwaite’ ‘Thomson.test’
+All user-level objects in a package should have documentation entries.
+See chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking for code/documentation mismatches ... WARNING
+Codoc mismatches from documentation object 'Thomson.stat':
+Thomson.stat
+  Code: function(x, freq, index = floor(freq * length(x) * deltat(x)),
+                 tapers, n.tapers = dim(tapers)[2])
+  Docs: function(x, index, tapers, n.tapers)
+  Argument names in code not in docs:
+    freq
+  Mismatches in argument names:
+    Position: 2 Code: freq Docs: index
+    Position: 3 Code: index Docs: tapers
+    Position: 4 Code: tapers Docs: n.tapers
+  Mismatches in argument default values:
+    Name: 'index' Code: floor(freq * length(x) * deltat(x)) Docs: 
+    Name: 'n.tapers' Code: dim(tapers)[2] Docs: 
+
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking compiled code ... WARNING
+File ‘spectral/libs/spectral.so’:
+  Found ‘__gfortran_st_write’, possibly from ‘write’ (Fortran), ‘print’
+    (Fortran)
+    Object: ‘zpotrf.o’
+  Found ‘__gfortran_stop_string’, possibly from ‘stop’ (Fortran)
+    Object: ‘zpotrf.o’
+
+Compiled code should not call entry points which might terminate R nor
+write to stdout/stderr instead of to the console, nor use Fortran I/O
+nor system RNGs.
+
+See ‘Writing portable packages’ in the ‘Writing R Extensions’ manual.
+* checking examples ... OK
+* checking PDF version of manual ... OK
+* DONE
+Status: 5 WARNINGs, 3 NOTEs
