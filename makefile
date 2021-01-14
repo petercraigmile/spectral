@@ -10,5 +10,5 @@ build:	;
 	R CMD BUILD $(PACKAGE) 
 
 clear:	;
-	rm $(PACKAGE)/src/*.o $(PACKAGE)/src/*.so $(PACKAGE)/src/symbols.rds $(PACKAGE)/src/.DS_Store
+	rm -f $(PACKAGE)/src/*.o $(PACKAGE)/src/*.so $(PACKAGE)/src/symbols.rds $(PACKAGE)/src/.DS_Store
 
