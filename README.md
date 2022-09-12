@@ -15,20 +15,11 @@ Supported by the National Science Foundation under award number DMS-0604963 and 
 
 ### Installation
 
-For Mac OS and Linux, make sure you have the C and fortran compilers
-installed.  After installing the `devtools` R package type
+Please make sure you have a C and Fortran compiler installed for your version of R. Then, after installing the devtools R package, you can install this R package using
 
 ```
-devtools::install_github("https://github.com/petercraigmile/spectral", subdir="spectral")
+devtools::install_github("petercraigmile/spectral/spectral")
 ```
-
-For windows, download the file <a href="https://github.com/petercraigmile/spectral/raw/master/releases/current/spectral.zip">spectral.zip</a> from the `releases` folder.    Then:
-
-1. Open the R gui, by doubling clicking on the R icon.
-
-2. Click on the `Packages` menu and select `Install package(s) from local zip files...`.  Find the zip file and press `Open`.
-
-3. Your R package will be installed.
 
 
 After installation, type `library(spectral)` to use the R library.
@@ -53,8 +44,8 @@ The documentation for `Thomson.stat` is incorrect.
 
 D. R. Brillinger. Time Series: Data Analysis and Theory. Holt, New York, NY, 1981.
 
-D. Percival and A. Walden. Spectral Analysis for Physical Applications. Cambridge
-University Press, Cambridge, 1993.
+D. Percival and A. Walden. Spectral Analysis for Univariate Time Series. Cambridge
+University Press, Cambridge, 2020.
 
 M. B. Priestley. Spectral Analysis and Time Series. (Vol. 1): Univariate Series. Academic
 Press, London, UK, 1981.
